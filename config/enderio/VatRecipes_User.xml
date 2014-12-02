@@ -56,6 +56,21 @@
           <itemStack modID="minecraft" itemName="sapling" itemMeta="5" slot="0" multiplier="3"/>
           <itemStack modID="minecraft" itemName="carrot" slot="0" multiplier="3"/>
           
+          <!-- SLOT 1 -->
+          <itemStack modID="minecraft" itemName="sugar" slot="1" multiplier="1"/>
+          
+          <!-- LIQUID REQUIRED -->
+          <fluidStack name="water" multiplier="0.25"/>
+        </input>      
+        <output>
+          <fluidStack name="hootch"/>        
+        </output>
+      </recipe>
+      <recipe name="JamsHootch" energyCost="10000">
+        <!-- If recipe is named the same as it is in core it is overwriten -->
+        <input>
+          <!-- SLOT 0 -->
+          
           <!-- Added ALL PAM's Saplings to Hootch recipe -->
           <itemStack modID="harvestcraft" itemName="pamappleSapling" slot="0" multiplier="3"/>
           <itemStack modID="harvestcraft" itemName="pamalmondSapling" slot="0" multiplier="3"/>
@@ -243,12 +258,9 @@
           <itemStack modID="harvestcraft" itemName="walnutItem" slot="0" multiplier="3"/>
 
           <!-- SLOT 1 -->
-          
           <!-- Added Pam's FLOUR as mod-->
           <itemStack modID="harvestcraft" itemName="flourItem" slot="1" multiplier="1"/>
               
-          <itemStack modID="minecraft" itemName="sugar" slot="1" multiplier="1"/>
-          
           <!-- LIQUID REQUIRED -->
           <fluidStack name="water" multiplier="0.25"/>
         </input>      
